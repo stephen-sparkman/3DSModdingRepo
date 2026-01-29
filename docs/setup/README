@@ -1,0 +1,29 @@
+# Setup Documentation
+
+This folder douments the full setup process for modding the Nintendo 3DS, step by step, in the order it was completed.
+
+Each file in this folder represents a **major milestone** in the modding process, including:
+- SD Card prep
+- Homebrew installation
+- Custom firmware (luma3DS)
+- CIA installers (FBI, etc.)
+- System tools
+
+The goal is to keep a clear chronological record of what was done, what tools were used, and any issues encountered along the way.
+
+---
+
+## Structure
+
+Files in this folder are named in order:
+01-
+02-
+03-
+
+---
+
+## Notes
+
+- Detailed issues are documented in '/docs/issues'
+-  Experiments and optional steps live in '/docs/expirements'
+- Daily progress logs live in '/docs/logs'
