@@ -1,1 +1,57 @@
-# PLACEHOLDER
+## Required:
+Previously, you've installed boot9strap, a custom firmware loader that loads the file boot.firm from SD card or NAND (internal memory).
+We are using Luma3DS by LumaTeam as our boot.firm to patch the console, allowing it to run homebrew software.
+
+Here, we will make critical system file backups and install some homebrew programs. Most of these steps are automated using a script that is ran from the console.
+
+The script will install the following applications:
+# FBI 
+by Steveice10 (installs CIA formatted applications)
+# Homebrew Launcher Loader
+by PabloMK7 (runs Homebrew Launcher for 3DSX format)
+# Anemone3DS
+by astronautlevel2 (installs custom themes, splashes, and badges)
+# Checkpoint
+by BernardoGiordano/FlagBrew (manages 3DS/DS game save data)
+# ftpd
+by mtheall (allows wireless 3DS SD card access over FTP)
+# Universal Updater
+by Universal-Team (on device app store for downloading homebrew over Wi-Fi)
+# GodMode9
+by d0k3 (multipurpose tool for extracting data from internal memory or cartridges)
+
+If you dont want these applications, you can remove them after you have finished this process byt navigating to
+System Settings > Data Management > Nintendo 3DS > Software (exception of GodMode9)
+
+
+
+## What you need:
+x_finalize_helper.firm
+finalize.romfs
+
+
+
+## Instructions
+# Section I | Prep Work
+In this section you will copy ther necessary files to follow the rest of the instructions
+
+1. Power off your console
+2. Insert SD into computer
+3. Copy finalize.romfs to root of the SD card
+4. Open the luma folder on SD card, if a folder named "payloads" is not present, create one
+5. Copy x_finalize_helper.firm to the payloads folder
+6. Reinster SD to console
+
+
+# Section II | Updating the System
+Here you will update the system to the latest version, which is safe to do with custom firmware
+1. Navigate to System Settings > Other Settings > System Update
+- Updates while using B9S + Luma are safe
+- Updater may display message, "Your system is up to date" in which case move onto the next section
+- If this gives you an error, set your DNS settings to "Auto" and Proxy settings to "No"
+- If you still receive an error, visit the troubleshooting guide
+
+
+# Section III | RTC and DSP Setup
+
+
