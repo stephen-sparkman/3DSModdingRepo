@@ -31,7 +31,7 @@ Prepare a compatible SD card for Nintendo 3DS modding so the system can properly
 
 ## Final Outcome
 - SD card detected by 3DS
-- Card ready for
+- Card ready for console
 
 ## Notes
 - Always eject SD card properly, do not risk harming data
